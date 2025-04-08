@@ -11,8 +11,10 @@ GameObject:
   - component: {fileID: 7532359346214958853}
   - component: {fileID: 130076082779477130}
   - component: {fileID: 4142565207255094638}
-  - component: {fileID: 7248044738546978389}
-  - component: {fileID: 6127146400603969274}
+  - component: {fileID: -8412066018186056829}
+  - component: {fileID: 1789739695099344358}
+  - component: {fileID: 6282463613064231500}
+  - component: {fileID: 3690531723530915027}
   m_Layer: 0
   m_Name: Food_Pizza_01
   m_TagString: Untagged
@@ -29,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 7139794467019272174}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.72232777, z: 0, w: 0.69155085}
-  m_LocalPosition: {x: -18.06, y: 0.05, z: 9.970027}
+  m_LocalPosition: {x: -18.096, y: 0.066, z: 9.972}
   m_LocalScale: {x: 2.1154783, y: 1.7110004, z: 1.8354831}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -85,7 +87,55 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7248044738546978389
+--- !u!65 &-8412066018186056829
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7139794467019272174}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.45970085, y: 0.13234861, z: 0.55363166}
+  m_Center: {x: -7.2164497e-16, y: 0, z: -0.0000001937151}
+--- !u!54 &1789739695099344358
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7139794467019272174}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &6282463613064231500
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -98,7 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 40
---- !u!114 &6127146400603969274
+--- !u!114 &3690531723530915027
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
